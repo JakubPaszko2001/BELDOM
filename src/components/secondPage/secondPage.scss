@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+.secondPageContainer {
+    width: 100%;
+    background-color: #1E2224;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    display: flex;
+    padding: 10vw 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Girassol';
+}
+.essa {
+    width: 70px;
+    height: 70px;
+}

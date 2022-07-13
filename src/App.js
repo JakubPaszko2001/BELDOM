@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
+import Main from "./components/firstPage/index.js"
+import Second from "./components/secondPage/index.js"
+import Third from "./components/thirdPage/index.js"
 import './index.css'
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Main />
+      <Second />
+      <Third />
     </div>
   );
 }

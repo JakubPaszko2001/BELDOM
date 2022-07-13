@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+.thirdPageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 4rem;
+  background-color: #1E2224;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Girassol';
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1vw;
+  padding: 4rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20vw;
+  height: 25vw;
+  background-color: #2F393E;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.essa {
+  position: absolute;
+  top: 1vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+.cardText {
+  font-size: 1vw;
+  padding: 0 1vw;
+}
+
+.space {
+  margin-top: 3vw;
+  margin-bottom: 1.5vw;
+}
+/*# sourceMappingURL=thirdPage.css.map */

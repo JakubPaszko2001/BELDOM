@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+.thirdPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem;
+    background-color: #1E2224;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Girassol';
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vw;
+    padding: 4rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 25vw;
+    background-color: #2F393E;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+}
+.essa {
+    position: absolute;
+    top: 1vw;
+    width: 5vw;
+    height: 5vw;
+}
+.cardText {
+    font-size: 1vw;
+    padding: 0 1vw;
+}
+.space {
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+}
