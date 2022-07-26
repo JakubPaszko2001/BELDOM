@@ -10,7 +10,8 @@
 }
 .box {
     display: flex;
-    padding: 10vw 4rem;
+    flex-wrap: wrap;
+    padding: 10vw 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;

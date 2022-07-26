@@ -1,11 +1,12 @@
 import React from 'react'
 import './../firstPage/firstPage.css'
-import bg from '../../images/bg.jpg'
+import bg from '../../images/12.png'
 import facebook from '../../images/facebook.png'
 const First = () => {
   return (
     <div className='firstPageContainer'>
       <img src={bg} alt='background'></img>
+      <div className='shade'></div>
       <div className='Navbar'>
         <h1 className='logoText'>BEL<span>DOM</span></h1>
         <ul>

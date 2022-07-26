@@ -14,7 +14,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  padding: 4rem;
   background-color: #1E2224;
   color: white;
   font-size: 2vw;
@@ -42,8 +41,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1vw;
-  padding: 4rem;
+  grid-gap: 2vw;
 }
 
 .card {
@@ -58,16 +56,41 @@
   height: 25vw;
   background-color: #2F393E;
   color: white;
-  border-radius: 50px;
+  border-radius: 20px;
   position: relative;
   text-align: center;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 8px 16px 0px white;
+          box-shadow: 0px 8px 16px 0px white;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
 .essa {
   position: absolute;
   top: 1vw;
-  width: 5vw;
-  height: 5vw;
+  width: 5.5vw;
+  height: 5.5vw;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ess {
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 .cardText {
@@ -78,5 +101,9 @@
 .space {
   margin-top: 3vw;
   margin-bottom: 1.5vw;
+}
+
+.thirdPageTittle {
+  margin-bottom: 2vw;
 }
 /*# sourceMappingURL=thirdPage.css.map */

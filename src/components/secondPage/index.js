@@ -8,15 +8,15 @@ const secondPage = () => {
             <p className='boxTitle'>LAT W BRANŻY</p>
         </div>
         <div className='box'>
-            <h1 className='boxName'>50+</h1>
+            <h1 className='boxName'>50 <span>+</span></h1>
             <p className='boxTitle'>PODSTAWIONYCH BUDYNKÓW</p>
         </div>
         <div className='box'>
-            <h1 className='boxName'>80+</h1>
+            <h1 className='boxName'>80 <span>+</span></h1>
             <p className='boxTitle'>WYKONANYCH REMONTÓW</p>
         </div>
         <div className='box'>
-            <h1 className='boxName'>100+</h1>
+            <h1 className='boxName'>100 <span>+</span></h1>
             <p className='boxTitle'>ZADOWOLONYCH KLIENTÓW</p>
         </div>
     </div>

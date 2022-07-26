@@ -5,9 +5,11 @@
 
 .firstPageContainer {
   width: 100%;
+  max-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 img {
@@ -18,19 +20,20 @@ img {
 
 .Navbar {
   width: 100%;
-  height: 0;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2vw;
 }
 
 ul {
@@ -40,16 +43,24 @@ ul {
 }
 
 li {
-  color: white;
+  color: #EB680D;
   font-size: 2vw;
-  padding: 0 50px;
+  padding: 0 10px;
   text-decoration: none;
   list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: black;
 }
 
 .logoText {
   font-size: 5em;
   color: white;
+  cursor: pointer;
 }
 
 span {
@@ -59,4 +70,13 @@ span {
 .logoText {
   font-size: 4vw;
 }
-/*# sourceMappingURL=Firstpage.css.map */
+
+.shade {
+  position: absolute;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1E2224));
+  background: linear-gradient(transparent, #1E2224 100%);
+  width: 100%;
+  height: 20vh;
+}
+/*# sourceMappingURL=firstPage.css.map */
