@@ -34,4 +34,26 @@
 .realizacja-zdj {
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .fourthContainerPhotos {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    width: 64.5%;
+  }
+  .fourthPageTitle {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fourthPageTitle {
+    font-size: 5.5vw;
+  }
+  .fourthContainerPhotos {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=fourthPage.css.map */

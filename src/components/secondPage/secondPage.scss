@@ -8,10 +8,13 @@
     justify-content: space-around;
     align-items: center;
 }
+.boxGrid {
+    display: flex;
+}
 .box {
     display: flex;
     flex-wrap: wrap;
-    padding: 10vw 0;
+    padding: 10vw 2vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -22,4 +25,27 @@
 .essa {
     width: 70px;
     height: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .boxTitle {
+        font-size: 2.2vw;
+    }
+    .boxName {
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .boxGrid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .boxTitle {
+        font-size: 4vw;
+    }
+    .boxName {
+        font-size: 9vw;
+    }
 }

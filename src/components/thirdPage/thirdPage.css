@@ -20,22 +20,6 @@
   font-family: 'Girassol';
 }
 
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .cardContainer {
   display: -ms-grid;
   display: grid;
@@ -52,6 +36,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 20vw;
   height: 25vw;
   background-color: #2F393E;
@@ -105,5 +95,81 @@
 
 .thirdPageTittle {
   margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardContainer {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+  }
+  .card {
+    width: 30vw;
+    height: 35vw;
+  }
+  .thirdPageTittle {
+    font-size: 6vw;
+  }
+  .essa {
+    top: 1vw;
+    width: 6vw;
+    height: 6vw;
+  }
+  .ess {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  .space {
+    font-size: 3.5vw;
+  }
+  .cardText {
+    font-size: 1.9vw;
+  }
+  .card:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cardContainer {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    gap: 3vw;
+  }
+  .card {
+    width: 50vw;
+    height: 55vw;
+  }
+  .thirdPageTittle {
+    font-size: 6vw;
+  }
+  .essa {
+    top: 2.5vw;
+    width: 13.5vw;
+    height: 13.5vw;
+  }
+  .ess {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+  .space {
+    font-size: 5.5vw;
+  }
+  .cardText {
+    font-size: 2.4vw;
+  }
+  .card:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 /*# sourceMappingURL=thirdPage.css.map */
