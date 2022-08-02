@@ -1,0 +1,59 @@
+.fourthPageContainer {
+  background-color: #1E2224;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding-top: 2vw;
+}
+
+.fourthPageTitle {
+  margin-bottom: 4vw;
+  font-size: 4vw;
+}
+
+.fourthContainerPhotos {
+  display: -ms-grid;
+  display: grid;
+  width: 64.5%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
+
+.realizacja-zdj {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .fourthContainerPhotos {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    width: 64.5%;
+  }
+  .fourthPageTitle {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fourthPageTitle {
+    font-size: 5.5vw;
+  }
+  .fourthContainerPhotos {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=fourthPage.css.map */

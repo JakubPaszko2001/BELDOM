@@ -8,7 +8,7 @@ const First = () => {
       <img src={bg} alt='background'></img>
       <div className='shade'></div>
       <div className='Navbar'>
-        <h1 className='logoText'>BEL<span>DOM</span></h1>
+        <h1 className='logoText'>BEL<span className='span'>DOM</span></h1>
         <ul>
           <li>O NAS</li>
           <li>ZAJMUJEMY SIĘ</li>
