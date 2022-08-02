@@ -1,7 +1,6 @@
 import React from 'react'
 import './../firstPage/firstPage.css'
 import bg from '../../images/12.png'
-import facebook from '../../images/facebook.png'
 const First = () => {
   return (
     <div className='firstPageContainer'>
