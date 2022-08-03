@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/BELDOM/static/css/main.3be9c5b9.css",
-    "main.js": "/BELDOM/static/js/main.274d74a7.js",
+    "main.css": "/BELDOM/static/css/main.14f9ec04.css",
+    "main.js": "/BELDOM/static/js/main.e116c228.js",
     "static/media/12.png": "/BELDOM/static/media/12.96e1e2f59c3bf2e838be.png",
     "static/media/foto.jpg": "/BELDOM/static/media/foto.2a02bd744ec67163037a.jpg",
     "static/media/roof.png": "/BELDOM/static/media/roof.40704fb0ee6c1f45a851.png",
     "static/media/fabric.png": "/BELDOM/static/media/fabric.225b70883833987ea2e6.png",
-    "static/media/facebook.png": "/BELDOM/static/media/facebook.01a470d813915c298403.png",
     "static/media/roof2.png": "/BELDOM/static/media/roof2.815d7e96d721c7174f6f.png",
     "index.html": "/BELDOM/index.html",
-    "main.3be9c5b9.css.map": "/BELDOM/static/css/main.3be9c5b9.css.map",
-    "main.274d74a7.js.map": "/BELDOM/static/js/main.274d74a7.js.map"
+    "main.14f9ec04.css.map": "/BELDOM/static/css/main.14f9ec04.css.map",
+    "main.e116c228.js.map": "/BELDOM/static/js/main.e116c228.js.map"
   },
   "entrypoints": [
-    "static/css/main.3be9c5b9.css",
-    "static/js/main.274d74a7.js"
+    "static/css/main.14f9ec04.css",
+    "static/js/main.e116c228.js"
   ]
 }
