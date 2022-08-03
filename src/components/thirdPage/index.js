@@ -19,7 +19,7 @@ const thirdPage = () => {
   })
   return (
     <div className='thirdPageContainer'>
-        <p className='thirdPageTittle'>CZYM SIĘ ZAJMUJEMY?</p>
+        <p className='thirdPageTittle' id="zajmujemy">CZYM SIĘ ZAJMUJEMY?</p>
         <div className='cardContainer'>
           {mapa}
         </div>

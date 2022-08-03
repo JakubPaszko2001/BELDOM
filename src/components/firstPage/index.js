@@ -1,6 +1,7 @@
 import React from 'react'
 import './../firstPage/firstPage.css'
 import bg from '../../images/12.png'
+import {Link} from 'react-scroll'
 const First = () => {
   return (
     <div className='firstPageContainer'>
@@ -9,9 +10,9 @@ const First = () => {
       <div className='Navbar'>
         <h1 className='logoText'>BEL<span className='span'>DOM</span></h1>
         <ul>
-          <li>O NAS</li>
-          <li>ZAJMUJEMY SIĘ</li>
-          <li>KONTAKT</li>
+          <li><Link to="onas" smooth={true} offset={0} duration={700}>O NAS</Link></li>
+          <li><Link to="zajmujemy" smooth={true} offset={0} duration={900}>ZAJMUJEMY SIĘ</Link></li>
+          <li><Link to="realizacje" smooth={true} offset={0} duration={1400}>REALIZACJE</Link></li>
         </ul>
       </div>
     </div>
