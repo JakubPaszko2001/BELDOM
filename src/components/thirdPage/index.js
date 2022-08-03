@@ -5,13 +5,13 @@ const thirdPage = () => {
   const mapa = data.map(item => {
     return (
       <div className='card' key={item.id}>
-      <div className='essa'>
+      <div className='essa cardSpace'>
         <img src={item.image} className='ess' alt='eo'></img>
       </div>
-      <div>
-        <p className='space'>{item.title}</p>
+      <div className='cardSpace'>
+        <p className='cardTitle'>{item.title}</p>
       </div>
-      <div>
+      <div className='cardSpace'>
         <p className='cardText'>{item.text}</p>
       </div>
     </div>

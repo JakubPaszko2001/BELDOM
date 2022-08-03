@@ -10,7 +10,7 @@ const secondPage = () => {
                 <p className='boxTitle'>LAT W BRANŻY</p>
             </div>
             <div className='box'>
-                <h1 className='boxName'><CountUp end={50} duration={2} className="thic"/> <span className='span'>+</span></h1>
+                <h1 className='boxName'><CountUp end={50} duration={2}/> <span className='span'>+</span></h1>
                 <p className='boxTitle'>PODSTAWIONYCH BUDYNKÓW</p>
             </div>
             <div className='box'>

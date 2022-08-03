@@ -36,9 +36,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -61,8 +61,6 @@
 }
 
 .essa {
-  position: absolute;
-  top: 1vw;
   width: 5.5vw;
   height: 5.5vw;
   background-color: white;
@@ -83,14 +81,13 @@
   height: 3.5vw;
 }
 
+.cardSpace {
+  margin-top: 1.5vw;
+}
+
 .cardText {
   font-size: 1vw;
   padding: 0 1vw;
-}
-
-.space {
-  margin-top: 3vw;
-  margin-bottom: 1.5vw;
 }
 
 .thirdPageTittle {
@@ -112,16 +109,12 @@
     font-size: 6vw;
   }
   .essa {
-    top: 1vw;
     width: 6vw;
     height: 6vw;
   }
   .ess {
     width: 3.5vw;
     height: 3.5vw;
-  }
-  .space {
-    font-size: 3.5vw;
   }
   .cardText {
     font-size: 1.9vw;
@@ -140,7 +133,6 @@
   .cardContainer {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
-    gap: 3vw;
   }
   .card {
     width: 50vw;
@@ -150,7 +142,6 @@
     font-size: 6vw;
   }
   .essa {
-    top: 2.5vw;
     width: 13.5vw;
     height: 13.5vw;
   }
@@ -158,11 +149,11 @@
     width: 9.5vw;
     height: 9.5vw;
   }
-  .space {
+  .cardTitle {
     font-size: 5.5vw;
   }
   .cardText {
-    font-size: 2.4vw;
+    font-size: 3vw;
   }
   .card:hover {
     -webkit-transform: none;

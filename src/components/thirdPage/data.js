@@ -9,37 +9,37 @@ export default [
     {
         id: 1,
         image: trowel,
-        title: 'Murarstwo',
-        text: 'Murowanie polega na wznoszeniu budowli poprzez spajanie kamiennych, ceglanych itp. materiałów środkami wypełniającymi i wiążącymi zwanymi zaprawami murarskimi.'
+        title: 'MURARSTWO',
+        text: 'murowanie polega na wznoszeniu budowli poprzez spajanie kamiennych, ceglanych itp. materiałów środkami wypełniającymi i wiążącymi zwanymi zaprawami murarskimi.'
     },
     {
         id: 2,
         image: roof2,
-        title: 'Wieźby dachowe',
-        text: 'Drewniany szkielet, stelaż dachu, który przenosi obciążenia z pokrycia dachowego na konstrukcję nośnych ścian budynku.'
+        title: 'WIEŹBY DACHOWE',
+        text: 'drewniany szkielet, stelaż dachu, który przenosi obciążenia z pokrycia dachowego na konstrukcję nośnych ścian budynku.'
     },
     {
         id: 3,
         image: roof,
-        title: 'Krycie dachów',
-        text: 'Zewnętrzna warstwa dachu, narażona na działanie warunków atmosferycznych.'
+        title: 'KRYCIE DACHÓW',
+        text: 'zewnętrzna warstwa dachu, narażona na działanie warunków atmosferycznych.'
     },
     {
         id: 4,
         image: fabric,
-        title: 'Docieplenia',
-        text: 'Ocieplenie polega na zamocowaniu materiału termoizolacyjnego najczęściej w postaci płyt do ścian budynku od zewnątrz.'
+        title: 'DOCIEPLENIA',
+        text: 'ocieplenie polega na zamocowaniu materiału termoizolacyjnego najczęściej w postaci płyt do ścian budynku od zewnątrz.'
     },
     {
         id: 5,
         image: paint,
-        title: 'Wykańczanie wnętrz',
-        text: 'Prace wykończeniowe to prace kontynuowanie budowy w wewnątrz budynku.'
+        title: 'WYKAŃCZANIE WNĘTRZ',
+        text: 'prace wykończeniowe to prace kontynuowanie budowy w wewnątrz budynku.'
     },
     {
         id: 6,
         image: home,
-        title: 'Stany surowe',
-        text: 'Stan budowli, która ma już dach, ale nie jest wykończona.'
+        title: 'STANY SUROWE',
+        text: 'stan budowli, która ma już dach, ale nie jest wykończona.'
     }
 ]
