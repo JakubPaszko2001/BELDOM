@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BELDOM/static/css/main.14fc31e1.css",
-    "main.js": "/BELDOM/static/js/main.5eb798f7.js",
+    "main.css": "/BELDOM/static/css/main.a5969adb.css",
+    "main.js": "/BELDOM/static/js/main.ab45f5d2.js",
     "static/media/12.png": "/BELDOM/static/media/12.96e1e2f59c3bf2e838be.png",
     "static/media/foto.jpg": "/BELDOM/static/media/foto.2a02bd744ec67163037a.jpg",
     "static/media/roof.png": "/BELDOM/static/media/roof.40704fb0ee6c1f45a851.png",
@@ -10,11 +10,11 @@
     "static/media/trowel.png": "/BELDOM/static/media/trowel.52f1cc01e70ce2f6840a.png",
     "static/media/home.png": "/BELDOM/static/media/home.f6281babda22bda2c9c1.png",
     "index.html": "/BELDOM/index.html",
-    "main.14fc31e1.css.map": "/BELDOM/static/css/main.14fc31e1.css.map",
-    "main.5eb798f7.js.map": "/BELDOM/static/js/main.5eb798f7.js.map"
+    "main.a5969adb.css.map": "/BELDOM/static/css/main.a5969adb.css.map",
+    "main.ab45f5d2.js.map": "/BELDOM/static/js/main.ab45f5d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.14fc31e1.css",
-    "static/js/main.5eb798f7.js"
+    "static/css/main.a5969adb.css",
+    "static/js/main.ab45f5d2.js"
   ]
 }
