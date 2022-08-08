@@ -13,6 +13,7 @@ const First = () => {
           <li><Link to="onas" smooth={true} offset={0} duration={700}>O NAS</Link></li>
           <li><Link to="zajmujemy" smooth={true} offset={0} duration={900}>ZAJMUJEMY SIĘ</Link></li>
           <li><Link to="realizacje" smooth={true} offset={0} duration={1400}>REALIZACJE</Link></li>
+          <li><Link to="kontakt" smooth={true} offset={0} duration={1600}>KONTAKT</Link></li>
         </ul>
       </div>
     </div>

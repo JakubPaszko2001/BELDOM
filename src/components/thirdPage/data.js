@@ -5,6 +5,7 @@ import home from '../../images/home.png'
 import paint from '../../images/paint.png'
 import trowel from '../../images/trowel.png'
 
+// eslint-disable-next-line
 export default [
     {
         id: 1,

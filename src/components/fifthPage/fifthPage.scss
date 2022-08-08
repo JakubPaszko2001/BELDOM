@@ -5,28 +5,72 @@
     align-items: center;
     background-color: #1E2224;
 }
+
 .fifthPageTitle {
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
-.fifthPageContact {
-    width: 65%;
-}
-.wrapper {
-    display: grid;
+
+input,textarea {
     width: 100%;
-    height: 15vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
-    justify-content: space-around;
-    padding-bottom: 5rem;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    height: 10vh;
+    font-size: 2rem;
+    padding: 4px;
 }
+
+label {
+    color: white;
+    font-size: 2rem;
+}
+
 textarea {
     resize: none;
-  }
-.item5 {
-    grid-column: 1 / 3;
+    height: 20vh;
+}
+
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+button {
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+    .fifthPageTitle {
+        font-size: 6vw;
+    }
+    .itemBox {
+        width: 65vw;
+    }
+    input,textarea {
+        font-size: 1.4rem;
+    }
+    button {
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fifthPageTitle {
+        font-size: 8vw;
+    }
+    .itemBox {
+        width: 65vw;
+    }
+    input,textarea {
+        font-size: 1.4rem;
+    }
 }

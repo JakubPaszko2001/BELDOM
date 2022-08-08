@@ -44,9 +44,12 @@
   font-family: 'Girassol';
 }
 
-.essa {
-  width: 70px;
-  height: 70px;
+.boxTitle {
+  font-size: 2vw;
+}
+
+.boxName {
+  font-size: 5vw;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -54,7 +57,7 @@
     font-size: 2.2vw;
   }
   .boxName {
-    font-size: 7vw;
+    font-size: 8vw;
   }
 }
 
