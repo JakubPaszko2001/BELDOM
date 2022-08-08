@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BELDOM/static/css/main.62d08dc0.css",
+    "main.css": "/BELDOM/static/css/main.80b80865.css",
     "main.js": "/BELDOM/static/js/main.5eb798f7.js",
     "static/media/12.png": "/BELDOM/static/media/12.96e1e2f59c3bf2e838be.png",
     "static/media/foto.jpg": "/BELDOM/static/media/foto.2a02bd744ec67163037a.jpg",
@@ -10,11 +10,11 @@
     "static/media/trowel.png": "/BELDOM/static/media/trowel.52f1cc01e70ce2f6840a.png",
     "static/media/home.png": "/BELDOM/static/media/home.f6281babda22bda2c9c1.png",
     "index.html": "/BELDOM/index.html",
-    "main.62d08dc0.css.map": "/BELDOM/static/css/main.62d08dc0.css.map",
+    "main.80b80865.css.map": "/BELDOM/static/css/main.80b80865.css.map",
     "main.5eb798f7.js.map": "/BELDOM/static/js/main.5eb798f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.62d08dc0.css",
+    "static/css/main.80b80865.css",
     "static/js/main.5eb798f7.js"
   ]
 }
