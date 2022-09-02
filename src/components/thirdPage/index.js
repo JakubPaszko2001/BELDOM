@@ -27,10 +27,9 @@ const thirdPage = () => {
     )
   })
   return (
-    <div className='thirdPageContainer'>
+    <div className='thirdPageContainer' id="zajmujemy">
         <p
         className='thirdPageTittle'
-        id="zajmujemy"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

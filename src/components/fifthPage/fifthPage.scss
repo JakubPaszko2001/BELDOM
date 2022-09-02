@@ -16,12 +16,24 @@
 input,textarea {
     width: 100%;
     margin-bottom: 20px;
-    background-color: transparent;
-    border: white solid 1px;
-    color: white;
     height: 10vh;
     font-size: 2rem;
     padding: 4px;
+    color: white;
+    border-radius: 15px;
+    background-color: #1E2224;
+    border: none;
+    box-shadow:
+    15px 15px 10px rgba(0,0,0,0.1),
+    inset -5px -5px 10px rgba(255,255,255,0.1),
+    inset 10px 10px 10px rgba(0,0,0,0.2);
+    text-indent: 30px;
+}
+input:focus, textarea:focus {
+    outline: none !important;
+}
+::placeholder {
+    color: white;
 }
 
 label {
@@ -41,12 +53,23 @@ textarea {
 }
 button {
     width: 50%;
-    background-color: transparent;
+    background-color: #1E2224;
+    border: none;
     color: white;
-    border: white 1px solid;
+    box-shadow:
+    15px 15px 15px rgba(0,0,0,0.1),
+    inset -5px -5px 10px rgba(255,255,255,0.1),
+    inset 10px 10px 10px rgba(0,0,0,0.2);
     padding: 1rem;
     font-size: 2rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow:
+    inset 15px 15px 15px rgba(0,0,0,0.1),
+    inset -15px -15px -15px rgba(255,255,255,0.1),
+    inset 5px 5px 5px rgba(0,0,0,1);
 }
 @media only screen and (max-width: 1024px) {
     .fifthPageTitle {

@@ -6,10 +6,9 @@ import 'aos/dist/aos.css';
 const fourth = () => {
   AOS.init();
   return (
-    <div className='fourthPageContainer'>
+    <div className='fourthPageContainer' id="realizacje">
         <p
         className='fourthPageTitle'
-        id="realizacje"
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
